@@ -1,6 +1,6 @@
 import 'reflect-metadata';
-import createConnection from './database';
 import express from 'express';
+import createConnection from './database';
 import { router } from './routes';
 
 createConnection();
