@@ -1,0 +1,4 @@
+You can place the command below in the item "scripts" inside the package.json file, it will delete the file from the test database
+always after the tests are run:
+
+"posttest": "rimraf ./src/database/database.test.sqlite"
